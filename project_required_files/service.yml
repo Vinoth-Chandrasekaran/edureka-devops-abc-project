@@ -1,11 +1,11 @@
 kind: Service
 apiVersion: v1
 metadata:
-    name: xyz-tech-service
+    name: abc-tech-service
 spec:
     type: NodePort
     selector:
-        app: xyz-tech-app
+        app: abc-tech-app
     ports:
         - port: 80 #cluster port
           targetPort: 8080 #container image port
